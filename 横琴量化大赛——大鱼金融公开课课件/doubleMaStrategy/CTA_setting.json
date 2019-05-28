@@ -1,0 +1,13 @@
+[{
+    "timeframeMap" :
+    {"envPeriod": "30m", "signalPeriod": "15m"},
+
+    "symbolList": ["IF88:CTP"],
+    "barPeriod" : 150,
+    "envPeriod": 100,
+    "fastPeriod": 5, 
+    "slowPeriod": 30,
+    "stoplossPct":0.03,
+    "lot" :10
+}
+]
