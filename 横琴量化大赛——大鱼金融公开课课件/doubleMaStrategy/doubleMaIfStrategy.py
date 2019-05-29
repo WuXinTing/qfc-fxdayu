@@ -98,7 +98,7 @@ class DoubleMaStrategy(CtaTemplate):
         if self.posDict[self.symbol+'_SHORT']>0:
             if bar.high>self.transactionPrice*(1+self.stoplossPct):
                 self.cancelAll()
-                self.cover(self.symbol, bar.close*0.99, self.posDict[self.symbol+'_LONG'])
+                self.cover(self.symbol, bar.close*1.01, self.posDict[self.symbol+'_SHORT'])
 
     def strategy(self, bar):
         print('strategystrategystrategystrategystrategy')
