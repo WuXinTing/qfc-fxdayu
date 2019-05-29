@@ -137,7 +137,7 @@ class DoubleMaStrategy(CtaTemplate):
         if self.posDict[self.symbol+'_SHORT']>0:
             if exitSig==1:
                 self.cancelAll()
-                self.cover(self.symbol, bar.close*1.01, self.posDict[self.symbol+'_LONG'])
+                self.cover(self.symbol, bar.close*1.01, self.posDict[self.symbol+'_SHORT'])
 
     def entrySignal(self, envPeriod, signalPeriod):
         arrayPrepared1, amEnv = self.arrayPrepared(envPeriod)
