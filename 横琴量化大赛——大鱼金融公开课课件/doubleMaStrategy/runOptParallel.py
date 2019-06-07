@@ -13,9 +13,11 @@ def setConfig(root=None):
     optimize.engineSetting = {
         "startDate": "20181130 00:00:00",
         "endDate": "20190115 23:59:00",
-        "slippage": 0.5,
-        "rate": 0.0005,
         "dbName": "VnTrader_1Min_Db",
+        "contract":[{
+                    "slippage": 0.5,
+                    "rate": 0.0005,
+                    }]
     }
     # 设置策略固定参数
     optimize.globalSetting = {
