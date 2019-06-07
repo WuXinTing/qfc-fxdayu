@@ -1,0 +1,26 @@
+[{
+    "timeframeMap" :
+    {"signalPeriod": "5m"},
+
+    "symbolList": ["IF88:CTP"],
+    "barPeriod" : 180,
+    "cmiPeriod": 40,
+    "cmiMaPeriod": 18, 
+    "cmiThreshold": 48,
+
+    "atrPeriod": 60,
+    "smallAtrTime": 2.6,
+    "bigAtrTime": 3,
+    "stopAtrTime": 3,
+
+    "hlMaPeriod": 90,
+    "maPeriod": 70,
+
+    "lowVolThreshold": 0.001,
+
+    "posTime":1,
+    "addPct": 0.01,
+
+    "lot" :10
+}
+]
